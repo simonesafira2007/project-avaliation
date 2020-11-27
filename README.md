@@ -5,10 +5,10 @@
 
 ## API Node.js Controle de Gastos
 <br>
-
+   
 ![Imagem representativa de controle de gastos](./imagens/img-0.jpg)
 
-<br> 
+<br>    
 
 <p>Muitas pessoas sonham em organizar suas finanças e gastos mensais, mas está cada vez mais difícil alcançar essa meta. Porém, é uma meta perfeitamente alcançável para quem controla a forma como gasta o próprio dinheiro. 
 <p>Uma coisa é certa: se você não sabe como controlar seus gastos, não saberá para onde está indo o seu dinheiro. Importante destacar que para você realizar um controle eficiente de gastos será necessário organizar suas finanças pessoais e/ou familiares. Cabe enfatizar ainda que neste processo, por menor que um gasto seja, ele deve ser sempre considerado em seu planejamento financeiro. Então, nada de ignorar aquele cafezinho comprada depois do almoço, só porque custou alguns reais. Nessas horas, todo dinheiro gasto conta.  
@@ -88,15 +88,16 @@ GET     | Exibe receitas específicas com base no id                |localhost:3
 GET     | Exibe sua despesas atualizadas                           |localhost:3000/despesas
 GET     | Exibe despesass específicas com base no id               |localhost:3000/despesas/id 
 GET     | Exibe a situação financeira atualizada                   |localhost:3000/transacoes [wip]
-PUT     | Atualiza ou insere os campos na aplicação (receitas)     | [wip]
-PUT     | Atualiza ou insere os campos na aplicação (despesas)     | [wip]
-DELETE  | Exclui registros do arquivo de receitas                  | [wip]
-DELETE  | Exclui registros do arquivo de despesas                  | [wip]
-
+PUT     | Atualiza ou insere os campos na aplicação (receitas)      | localhost:3000/receitas/id
+PUT     | Atualiza ou insere os campos na aplicação (despesas)      | localhost:3000/despesas/id
+DELETE  | Exclui registros do arquivo de receitas com base no id    | localhost:3000/receitas/id
+DELETE  | Exclui registros do arquivo de despesas com base no id    | localhost:3000/despesas/id
+DELETE  | Exclui registros do arquivo receitas (faturado = false)   | localhost:3000/receitas
+DELETE  | Exclui registros do arquivo despesas (faturado = false)   | localhost:3000/despesas
 
 <br>
 
-#### Referências:
+## Referências:
 
 <br>
 
