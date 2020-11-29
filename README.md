@@ -74,7 +74,7 @@
 <p>A API Controle de Gastos é uma forma de organizar os gastos de uma determinada pessoa ou dos membros de uma dada família baseada em todas as receitas obtidas e despesas assumidas/realizadas.
 O principal objetivo é controlar as entradas e saídas de recursos financeiros do ponto de vista de uma boa e saudável educação financeira.
 Na API será possível criar receitas e despesas, bem como exibi-lás, através de alguns endpoints. A manipulação dos dados será realizada através da implementação dos métodos PUT  e DELETE.
-Também será implementado um código para mostrar a situação da pessoa ou da família em relação ao controle do orçamento.</p>
+Também será implementado um método para mostrar a situação geral da pessoa ou da família com relação ao controle/saúde do orçamento baseado no montante existente no banco de dados .</p>
 
 <br>
 
