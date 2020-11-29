@@ -75,30 +75,63 @@
 O principal objetivo é controlar as entradas e saídas de recursos financeiros do ponto de vista de uma boa e saudável educação financeira.
 Na API será possível criar receitas e despesas, bem como exibi-lás, através de alguns endpoints. A manipulação dos dados será realizada através da implementação dos métodos PUT  e DELETE.
 Também será implementado um código para mostrar a situação da pessoa ou da família em relação ao controle do orçamento.</p>
-<p>Protocolos HTTP definem os verbos utilizados nas requisições, bem como suas respectivas funções e rotas específicas a serem chamadas no navegador ou no Postman</p>
-
-
-
-Verbo   | Descrição                                                | Endpoint   
-:---    |:---                                                      |:---            
-POST    | Adiciona todas as receitas à sua aplicação               |localhost:3000/receitas
-POST    | Adiciona todas as despesas à sua aplicação               |localhost:3000/despesas
-GET     | Exibe suas receitas atualizadas                          |localhost:3000/receitas 
-GET     | Exibe receitas específicas com base no id                |localhost:3000/receitas/id 
-GET     | Exibe sua despesas atualizadas                           |localhost:3000/despesas
-GET     | Exibe despesass específicas com base no id               |localhost:3000/despesas/id 
-GET     | Exibe a situação financeira atualizada                   |localhost:3000/transacoes [wip]
-PUT     | Atualiza ou insere os campos na aplicação (receitas)      | localhost:3000/receitas/id
-PUT     | Atualiza ou insere os campos na aplicação (despesas)      | localhost:3000/despesas/id
-DELETE  | Exclui registros do arquivo de receitas com base no id    | localhost:3000/receitas/id
-DELETE  | Exclui registros do arquivo de despesas com base no id    | localhost:3000/despesas/id
-DELETE  | Exclui registros do arquivo receitas (faturado = false)   | localhost:3000/receitas
-DELETE  | Exclui registros do arquivo despesas (faturado = false)   | localhost:3000/despesas
 
 <br>
 
-## Referências:
+## Tecnologias utilizadas neste projeto :
+
+- Git e GitHub ;
+- Node.js ;
+- MongoDB ;
+- Javascript ;
+- Heroku .
+
+<br>
+
+
+## Funcionalidades da nossa API
+
+<br>
+
+<p>Os protocolos HTTP definem verbos utilizados nas requisições a serem realizadas. Na tabela abaixo, apresentamos alguns verbos e descrevemos suas respectivas funções, bem como as rotas/endpoints específicas a serem chamadas no Postman .</p>
+
+<br>
+
+Verbo   | Descrição                                                | Endpoint   
+:---    |:---                                                      |:---            
+POST    | Adiciona todas as receitas à sua aplicação               | localhost:3000/receitas
+POST    | Adiciona todas as despesas à sua aplicação               | localhost:3000/despesas
+GET     | Exibe suas receitas atualizadas                          | localhost:3000/receitas 
+GET     | Exibe receitas específicas com base no id                | localhost:3000/receitas/id 
+GET     | Exibe sua despesas atualizadas                           | localhost:3000/despesas
+GET     | Exibe despesass específicas com base no id               | localhost:3000/despesas/id 
+GET     | Exibe a situação financeira atualizada                   | localhost:3000/transacoes 
+PUT     | Atualiza ou insere os campos na aplicação (receitas)     | localhost:3000/receitas/id 
+PUT     | Atualiza ou insere os campos na aplicação (despesas)     | localhost:3000/despesas/id 
+DELETE  | Exclui registros do arquivo de receitas com base no id   | localhost:3000/receitas/id 
+DELETE  | Exclui registros do arquivo de despesas com base no id   | localhost:3000/despesas/id 
+DELETE  | Exclui registros do arquivo receitas (faturado = false)  | localhost:3000/receitas 
+DELETE  | Exclui registros do arquivo despesas (faturado = false)  | localhost:3000/despesas 
+
+<br>
+
+<br>
+
+<p>Para rodar a aplicação é necessário instalar algumas bibliotecas a serem executadas no terminal :</p>
+
+- Express : é o framework Node e a biblioteca subjacente para uma série de outros frameworks do Node, sendo instalada através do comando npm install express --save  ; 
+- Nodemon : esse módulo é uma ferramenta que ajuda a desenvolver aplicativos baseados em node.js que irá monitorar todas as alterações nos arquivos da sua aplicação e reiniciar automaticamente o servidor quando for necessário e sendo executado através do comando npm install nodemon .
+- Mongoose :  é uma ferramenta de modelagem de objetos MongoDB projetada para funcionar em um ambiente assíncrono, oferecendo suporte a promessas e retornos de chamada; devendo ser instalada através do comando npm install mongoose --save .
+
+<br>
+
+## Referências:  
 
 <br>
 
 https://www.caixa.gov.br/educacao-financeira
+
+https://mongoosejs.com/docs/
+
+https://www.npmjs.com/package/nodemon
+
