@@ -1,9 +1,8 @@
-# project-avaliation
+### project-avaliation
 
-### api_controle_de_gastos
 <br>
 
-## API Node.js Controle de Gastos
+# API Node.js Controle de Gastos
 <br>
    
 ![Imagem representativa de controle de gastos](./imagens/img-0.jpg)
