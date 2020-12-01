@@ -100,11 +100,11 @@ Verbo   | Descrição                                                | Endpoint
 :---    |:---                                                      |:---            
 POST    | Adiciona todas as receitas à sua aplicação               | localhost:3000/receitas
 POST    | Adiciona todas as despesas à sua aplicação               | localhost:3000/despesas
-GET     | Exibe suas receitas atualizadas                          | localhost:3000/receitas 
+GET     | Exibe todas as receitas                                  | localhost:3000/receitas 
 GET     | Exibe receitas específicas com base no id                | localhost:3000/receitas/id 
-GET     | Exibe sua despesas atualizadas                           | localhost:3000/despesas
+GET     | Exibe todas as despesas                                  | localhost:3000/despesas
 GET     | Exibe despesass específicas com base no id               | localhost:3000/despesas/id 
-GET     | Exibe a situação financeira atualizada                   | localhost:3000/transacoes 
+GET     | Exibe a situação financeira atualizada                   | localhost:3000/transacoes/id 
 PUT     | Atualiza ou insere os campos na aplicação (receitas)     | localhost:3000/receitas/id 
 PUT     | Atualiza ou insere os campos na aplicação (despesas)     | localhost:3000/despesas/id 
 DELETE  | Exclui registros do arquivo de receitas com base no id   | localhost:3000/receitas/id 
@@ -134,3 +134,4 @@ https://mongoosejs.com/docs/
 
 https://www.npmjs.com/package/nodemon
 
+ 
