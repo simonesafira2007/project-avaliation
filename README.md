@@ -104,7 +104,7 @@ GET     | Exibe todas as receitas                                  | localhost:3
 GET     | Exibe receitas específicas com base no id                | localhost:3000/receitas/id 
 GET     | Exibe todas as despesas                                  | localhost:3000/despesas
 GET     | Exibe despesass específicas com base no id               | localhost:3000/despesas/id 
-GET     | Exibe a situação financeira atualizada                   | localhost:3000/transacoes/id 
+GET     | Exibe a situação financeira atualizada baseado no id     | localhost:3000/transacoes/id 
 PUT     | Atualiza ou insere os campos na aplicação (receitas)     | localhost:3000/receitas/id 
 PUT     | Atualiza ou insere os campos na aplicação (despesas)     | localhost:3000/despesas/id 
 DELETE  | Exclui registros do arquivo de receitas com base no id   | localhost:3000/receitas/id 
