@@ -85,15 +85,15 @@ Também será implementado um método para mostrar a situação geral da pessoa 
 ├── src
 │   ├── controllers
 |      ├── despesasController.js
-|       ├── receitasController.js
-|       ├── transacoesController.js
+|      ├── receitasController.js
+|      ├── transacoesController.js
 │   ├── models
 |      ├── despesas.js
 |      ├── receitas.js
 │   ├── routes 
-│       ├── despessRoute.js
-│       ├── receitasRoute.js
-|       ├── transacoesRoute.js
+│      ├── despessRoute.js
+│      ├── receitasRoute.js
+|      ├── transacoesRoute.js
 |   ├── app.js
 ├── package.json
 ├── server.js
