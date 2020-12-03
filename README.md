@@ -10,7 +10,7 @@
 <br>    
 
 <p>Muitas pessoas sonham em organizar suas finanças e gastos mensais, mas está cada vez mais difícil alcançar essa meta. Porém, é uma meta perfeitamente alcançável para quem controla a forma como gasta o próprio dinheiro. 
-<p>Uma coisa é certa: se você não sabe como controlar seus gastos, não saberá para onde está indo o seu dinheiro. Importante destacar que para você realizar um controle eficiente de gastos será necessário organizar suas finanças pessoais e/ou familiares. Cabe enfatizar ainda que neste processo, por menor que um gasto seja, ele deve ser sempre considerado em seu planejamento financeiro. Então, nada de ignorar aquele cafezinho comprada depois do almoço, só porque custou alguns reais. Nessas horas, todo dinheiro gasto conta.  
+<p>Uma coisa é certa: se você não sabe como controlar seus gastos, não saberá para onde está indo o seu dinheiro. Importante destacar que para você realizar um controle eficiente de gastos será necessário organizar suas finanças pessoais e/ou familiares. Cabe enfatizar ainda que neste processo, por menor que um gasto seja, ele deve ser sempre considerado em seu planejamento financeiro. Então, nada de ignorar aquele cafezinho comprado depois do almoço, só porque custou alguns reais. Nessas horas, todo dinheiro gasto conta.  
 </p>
 <p>E a pergunta que não quer calar: Você tem educação financeira? </p>
 <p>A Educação Financeira não consiste somente em aprender a economizar, cortar gastos, poupar e acumular dinheiro.</p>
@@ -77,6 +77,31 @@ Também será implementado um método para mostrar a situação geral da pessoa 
 
 <br>
 
+## Estrutura do projeto :
+
+<br>
+
+```
+├── src
+│   ├── controllers
+|      ├── despesasController.js
+|       ├── receitasController.js
+|       ├── transacoesController.js
+│   ├── models
+|      ├── despesas.js
+|      ├── receitas.js
+│   ├── routes 
+│       ├── despessRoute.js
+│       ├── receitasRoute.js
+|       ├── transacoesRoute.js
+|   ├── app.js
+├── package.json
+├── server.js
+```
+
+
+<br>
+
 ## Tecnologias utilizadas neste projeto :
 
 - Git e GitHub ;
@@ -87,8 +112,8 @@ Também será implementado um método para mostrar a situação geral da pessoa 
 
 <br>
 
-
 ## Funcionalidades da nossa API
+
 
 <br>
 
