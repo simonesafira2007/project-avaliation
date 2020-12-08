@@ -74,6 +74,7 @@
 O principal objetivo é controlar as entradas e saídas de recursos financeiros do ponto de vista de uma boa e saudável educação financeira.
 Na API será possível criar receitas e despesas, bem como exibi-lás, através de alguns endpoints. A manipulação dos dados será realizada através da implementação dos métodos PUT  e DELETE.
 Também será implementado um método para mostrar a situação geral da pessoa ou da família com relação ao controle/saúde do orçamento baseado no montante existente no banco de dados .</p>
+<p>O model de despesas e receitas segue o formato: { user_id, nome, descricao, valor, faturado, dataInclusao, tipo , origem }.</p>
 
 <br>
 
@@ -84,16 +85,17 @@ Também será implementado um método para mostrar a situação geral da pessoa 
 ```
 ├── src
 │   ├── controllers
-|      ├── despesasController.js
-|      ├── receitasController.js
-|      ├── transacoesController.js
+|   |  ├── despesasController.js
+|   |  ├── receitasController.js
+|   |  ├── transacoesController.js
 │   ├── models
-|      ├── despesas.js
-|      ├── receitas.js
+|   |  ├── despesas.js
+|   |  ├── receitas.js
 │   ├── routes 
-│      ├── despessRoute.js
-│      ├── receitasRoute.js
-|      ├── transacoesRoute.js
+│   |  ├── despesasRoute.js
+|   |  ├── index.js
+│   |  ├── receitasRoute.js
+|   |  ├── transacoesRoute.js
 |   ├── app.js
 ├── package.json
 ├── server.js
@@ -107,6 +109,7 @@ Também será implementado um método para mostrar a situação geral da pessoa 
 - Git e GitHub ;
 - Node.js ;
 - MongoDB ;
+- Mongo Atlas;
 - Javascript ;
 - Heroku .
 
