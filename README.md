@@ -116,6 +116,8 @@ Também será implementado um método para mostrar a situação geral da pessoa 
 - MongoDB ;
 - Mongo Atlas;
 - Javascript ;
+- Postman;
+- Robo 3T;
 - Heroku .
 
 <br>
@@ -154,6 +156,15 @@ DELETE  | Exclui registros do arquivo despesas (faturado = false)  | localhost:3
 - Express : é o framework Node e a biblioteca subjacente para uma série de outros frameworks do Node, sendo instalada através do comando npm install express --save  ; 
 - Nodemon : esse módulo é uma ferramenta que ajuda a desenvolver aplicativos baseados em node.js que irá monitorar todas as alterações nos arquivos da sua aplicação e reiniciar automaticamente o servidor quando for necessário e sendo executado através do comando npm install nodemon --save .
 - Mongoose :  é uma ferramenta de modelagem de objetos MongoDB projetada para funcionar em um ambiente assíncrono, oferecendo suporte a promessas e retornos de chamada; devendo ser instalada através do comando npm install mongoose --save .
+
+<br>
+
+## Ideias para melhoria da API
+
+<br>
+
+- Implementar código para autenticação de rota;
+- Implementação de código HTML para criação de interface capaz de possibilitar a interação do usuário com a aplicação.
 
 <br>
 
